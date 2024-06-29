@@ -7,7 +7,7 @@ html *{
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -39,4 +39,32 @@ body{
 
 .hamburger-active > span:nth-child(3){
     @apply origin-bottom-left -rotate-45;
+}
+.progress-container{
+    width: 100%;
+    display: flex;
+}
+.progress-container > .bar {
+    width: 95%;
+    background: #cbd5e1;
+    margin-top: 8px;
+    margin-right: 12px;  
+    border-radius: 4px;
+    height: 6px;
+    overflow: hidden;
+}
+.progress-container > .bar > .progress{
+    background: #6366f1;
+    border-radius: 2px;
+    height: 100%;
+}
+
+.w51{
+    width: 51%; 
+}
+.w40{
+    width: 40%;
+}
+.w37{
+    width: 37%;
 }
